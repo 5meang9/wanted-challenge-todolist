@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/SetList.css";
 
 function AddList(props){
 
@@ -12,7 +13,7 @@ function AddList(props){
   };
 
   const listInput = toDoList.map((row) => (
-    <div key={row.indexCount}>
+    <div key={row.indexCount} className="listInput">
       {row.text}
       <button onClick={() => handleDelete(row.indexCount)}>Delete</button>
     </div>

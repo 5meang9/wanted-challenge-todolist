@@ -1,0 +1,22 @@
+.listInput{
+  display: flex;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.listInput button{
+  border: 2px solid black;
+  width: 60px;
+  height: 34px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.listInput button:hover{
+  background-color: black !important;
+  color: #fff;
+  border-color: black !important;
+}

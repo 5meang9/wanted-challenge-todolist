@@ -1,0 +1,39 @@
+
+
+.ListContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ListWrap{
+  display: flex;
+}
+
+.ListWrap input{
+  margin-right: 10px;
+  width: 182px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 15px;
+}
+.ListWrap button{
+  width: 46px;
+  height: 46px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.ListWrap button:hover{
+  background: #000 !important;
+  color: #fff;
+  border-color: #000 !important;
+}

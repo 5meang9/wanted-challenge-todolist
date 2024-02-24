@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AddList from "./SetList";
+import "../styles/List.css";
 
 function List(props){
 
@@ -24,9 +25,11 @@ function List(props){
   
 
   return(
-    <div>
-      <input type='text' placeholder="input" value={text} onChange={changeInputText}/>
-      <button onClick={AddInputList}>Add</button>
+    <div className="ListContainer">
+      <div className="ListWrap">
+        <input type='text' placeholder="input" value={text} onChange={changeInputText}/>
+        <button onClick={AddInputList}>Add</button>
+      </div>
       <AddList toDoList={toDoList} setTodoList={setTodoList} />
     </div>
     
